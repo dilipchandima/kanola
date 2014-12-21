@@ -1,9 +1,10 @@
 .container100{
     width: 100%;
-    position:absolute;
+    position:relative;
     font-family:'Open Sans';
     font-size:14px;
     margin: -8px;
+    margin-left: 0px;
 }
 
 .container100drk{
@@ -14,10 +15,9 @@
 }
 
 .container{
-    margin-left: -500px;
+    margin: 0 auto;
     left: 50%;
     width: 1000px;
-    position: relative;
 }
 
 .line{
@@ -28,9 +28,16 @@
     margin-bottom: 30px;
 }
 
+.men-container{
+    width: 100%;
+    background-color: #fefefe;
+    position: fixed;
+}
+
 .menucontainer{
     width: 1000px;
     height: 63px;
+    margin: 0 auto;
     text-decoration: none;
 }
 
@@ -65,9 +72,9 @@
     background: url('img/banner.png');
     width: 100%;
     background-repeat: no-repeat;
-    padding-top: 100px;
+    padding-top: 150px;
     color: #fff;
-    height: 200px;
+    height: 250px;
     background-size:100% ;
     font-size:60px;
     text-align: center;
