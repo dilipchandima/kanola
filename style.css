@@ -30,8 +30,11 @@
 
 .men-container{
     width: 100%;
+    position:absolute;
     background-color: #fefefe;
-    position: fixed;
+    border-bottom: solid 1px #222;
+    box-shadow: 0px 0px 10px #222;
+    
 }
 
 .menucontainer{
